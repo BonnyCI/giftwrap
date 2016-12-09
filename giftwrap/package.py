@@ -28,8 +28,7 @@ SUPPORTED_DISTROS = {
 
 class Package(object):
 
-    def __init__(self, name, version, install_path, output_dir,
-                 overwrite=False, dependencies=None):
+    def __init__(self, name, version, install_path, output_dir, overwrite=False, dependencies=None):
         self.name = name
         self.version = version
         self.install_path = install_path

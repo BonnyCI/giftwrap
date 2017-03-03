@@ -41,6 +41,7 @@ Testing
 -------
 
     $ make test
+    $ make another test
 
 Supports
 --------
